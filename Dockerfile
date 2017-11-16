@@ -8,8 +8,8 @@ LABEL Version="3.0"
 # Setup the environment
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get -q update && \
-    apt-get install -y -qq \
+RUN apt-get update
+RUN apt-get install -y -qq \
         bash \
         bash-completion \
         bc \
