@@ -23,56 +23,57 @@ RUN apt-get -q update && \
         ethstatus \
         file \
         fio \
-        htop \
-        ifenslave \
-        ioping \
-        iotop \
-        iperf \
-        iptables \
-        iputils-ping \
-        less \
-        locate \
-        lsb-release \
-        lsof \
-        make \
-        man-db \
-        mdadm \
-        mg \
-        mosh \
-        mtr \
-        multipath-tools \
-        nano \
-        net-tools \
-        netcat \
-        nmap \
-        ntp \
-        ntpdate \
-        open-iscsi \
-        python-apt \
-        python-pip \
-        python-yaml \
-        rsync \
-        rsyslog \
-        screen \
-        shunit2 \
-        socat \
-        software-properties-common \
-        ssh \
-        sudo \
-        sysstat \
-        tar \
-        tcpdump \
-        tmux \
-        traceroute \
-        unattended-upgrades \
-        uuid-runtime \
-        vim \
-        wget \
-        apt-transport-https \
-        default-jre-headless \
-        chrpath \
-        nasm \
-        && rm -rf /var/lib/apt/lists/*
+        htop 
+        #\
+        # ifenslave \
+        # ioping \
+        # iotop \
+        # iperf \
+        # iptables \
+        # iputils-ping \
+        # less \
+        # locate \
+        # lsb-release \
+        # lsof \
+        # make \
+        # man-db \
+        # mdadm \
+        # mg \
+        # mosh \
+        # mtr \
+        # multipath-tools \
+        # nano \
+        # net-tools \
+        # netcat \
+        # nmap \
+        # ntp \
+        # ntpdate \
+        # open-iscsi \
+        # python-apt \
+        # python-pip \
+        # python-yaml \
+        # rsync \
+        # rsyslog \
+        # screen \
+        # shunit2 \
+        # socat \
+        # software-properties-common \
+        # ssh \
+        # sudo \
+        # sysstat \
+        # tar \
+        # tcpdump \
+        # tmux \
+        # traceroute \
+        # unattended-upgrades \
+        # uuid-runtime \
+        # vim \
+        # wget \
+        # apt-transport-https \
+        # default-jre-headless \
+        # chrpath \
+        # nasm \
+        # && rm -rf /var/lib/apt/lists/*
 
 RUN add-apt-repository -y ppa:openjdk-r/ppa
 
