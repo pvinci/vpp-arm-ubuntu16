@@ -7,6 +7,7 @@ LABEL Version="3.0"
 
 # Setup the environment
 ENV DEBIAN_FRONTEND=noninteractive
+CMD []
 RUN echo 'foo' || true
 RUN apt-get update || true
 RUN echo 'bar'
