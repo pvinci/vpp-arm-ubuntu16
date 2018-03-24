@@ -7,8 +7,9 @@ LABEL Version="3.0"
 
 # Setup the environment
 ENV DEBIAN_FRONTEND=noninteractive
-
+RUN echo 'foo'
 RUN apt-get update
+RUN echo 'bar'
 RUN apt-get install -y -qq \
         bash \
         bash-completion \
