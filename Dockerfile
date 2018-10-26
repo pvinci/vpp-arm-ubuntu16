@@ -153,6 +153,7 @@ RUN apt-get -q update && \
         clang-format \
         libboost-all-dev \
         ruby-dev \
+        xmlstarlet \
         && rm -rf /var/lib/apt/lists/*
 
 
